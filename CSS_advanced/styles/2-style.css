@@ -1,0 +1,29 @@
+/* Scrolling behavior for the entire page fluidly scrolls to the target section when a navigation link is clicked */
+html {
+	scroll-behavior: smooth;
+}
+
+/* 1. Body text color */
+body {
+  color: #161616;
+}
+
+/* 2. All anchor elements */
+a {
+  color: #161616;
+}
+
+/* 3. Hide visually-hidden elements */
+.visually-hidden {
+  display: none;
+}
+
+/* 4. Card category text color */
+.card-category {
+  color: #D73953;
+}
+
+/* 5. Section tagline text color */
+.section-tagline {
+  color: #D73953;
+}
