@@ -1,12 +1,44 @@
 :root {
+	/* define custom properties for color on :root */
+	--color-primary: #d73953;
+	--color-black:  #090909;
+	--color-white: #ffffff;
+	--color-light-grey: #f3f3f3;
+	--color-dark-grey: #353535;
+
+	--text-color: var(--color-black);
+
 	--font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	--font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-body {
-	font-family:var(--font-family-base);
+/* Scrolling behavior for the entire page fluidly scrolls to the target section when a navigation link is clicked */
+html {
+	scroll-behavior: smooth;
 }
 
+/*anchor elements style*/
+a{
+	color: var(--text-color);
+}
+
+/* 3. Hide visually-hidden elements */
+.visually-hidden {
+  display: none;
+}
+
+.section-tagline,
+.card-category {
+	color: var(--color-primary);
+}
+
+/*body styling*/
+body {
+	font-family:var(--font-family-base);
+	color: var(--text-color);
+}
+
+/*Heading tags styling*/
 h1, h2, h3, h4, h5, h6 {
 	font-family:var(--font-family-title);
 }
