@@ -1,10 +1,5 @@
-/* Scrolling behavior for the entire page fluidly scrolls to the target section when a navigation link is clicked */
-html {
-	scroll-behavior: smooth;
-}
-
 :root {
-	/* 1. Primary color*/
+	/* define custom properties for color on :root */
 	--color-primary: #d73953;
 	--color-black:  #090909;
 	--color-white: #ffffff;
@@ -19,7 +14,7 @@ html {
 	color: var(--color-primary);
 }
 
-body 
+body, 
 a{
 	color: var(--text-color);
 }
