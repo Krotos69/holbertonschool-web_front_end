@@ -9,6 +9,21 @@
 	--text-color: var(--color-black);
 }
 
+/* Scrolling behavior for the entire page fluidly scrolls to the target section when a navigation link is clicked */
+html {
+	scroll-behavior: smooth;
+}
+
+body, 
+a{
+	color: var(--text-color);
+}
+
+/* 3. Hide visually-hidden elements */
+.visually-hidden {
+  display: none;
+}
+
 .section-tagline,
 .card-category {
 	color: var(--color-primary);
