@@ -38,6 +38,15 @@
 	/* section title */
 	--section-title-margin: 0;
     --section-title-color: var(--color-black);
+
+	    /* section padding */
+    --section-padding: 5rem 0;
+    --section-header-padding: 0 0 3rem;
+    --section-body-padding: 0 0 3rem;
+    --section-footer-padding: 3rem 0 0;
+    --section-footer-align: center;
+    --footer-padding: 5rem 0 1rem;
+
 }
 
 * {
@@ -79,6 +88,10 @@ a:active {
     display: none;
 }
 
+.section {
+    padding: var(--section-padding);
+}
+
 .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
@@ -113,10 +126,6 @@ a:active {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.section {
-    padding: var(--section-padding);
 }
 
 
