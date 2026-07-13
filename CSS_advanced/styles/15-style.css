@@ -1,10 +1,6 @@
 
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
 
-* {
-    box-sizing: border-box;
-}
-
 :root {
     /* define custom properties for color on :root */
     --color-primary: #d73953;
@@ -44,6 +40,9 @@
     --section-title-color: var(--color-black);
 }
 
+* {
+    box-sizing: border-box;
+}
 
 html {
     scroll-behavior: smooth;
